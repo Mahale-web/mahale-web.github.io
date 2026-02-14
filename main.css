@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+  background: hsl(30, 54%, 90%);
+}
+
+.block {
+  background: hsl(0, 0%, 100%);
+  width: 720px;
+  min-width: 375px;
+  height: 1695px;
+  max-height: 2500px;
+  border-radius: 20px;
+  margin: 120px auto
+}
+
+.img {
+  width: 640px;
+  min-width: 295px;
+  margin: 40px 40px 0;
+  border-radius: 10px
+}
+
+h1 {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: hsl(24, 5%, 18%)
+}
+
+p {
+  margin: 0 40px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%)
+}
+
+#block-preparation {
+  background: hsl(330, 100%, 98%);
+  margin: 0 40px;
+  border-radius: 10px;
+  height: 180px
+}
+
+#block-preparation h3 {
+  padding: 25px 28px 0;
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 15px
+}
+
+#preparation-lst {
+  margin: 0 10px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+#preparation-lst li::marker {
+  list-style-type: filled-sircle;
+  color: hsl(332, 51%, 32%);
+  font-size: 12px;
+  margin-right: 40px;
+}
+
+#preparation-lst li {
+  padding: 0 15px;
+  line-height: 30px
+}
+
+h2 {
+  margin-left: 40px;
+  color: hsl(14, 45%, 36%);
+  font-size: 28px;
+  font-family: "Young Serif", serif;
+  font-weight: 500
+}
+
+#ingredients-lst {
+  margin: 0 20px;
+  font-family: "Outfit", sans-serif
+}
+
+#ingredients-lst li {
+  color: hsl(30, 10%, 34%);
+  padding-left: 15px;
+  line-height: 32px
+}
+
+#ingredients-lst li::marker {
+  list-style-type: filled-sircle;
+  color: hsl(14, 45%, 36%);
+  font-size: 12px;
+}
+
+#instructions-lst {
+  margin-left: 20px;
+  margin-right: 40px;
+  font-family: "Outfit", sans-serif;
+}
+
+#instructions-lst li {
+  color: hsl(30, 10%, 34%);
+  padding-left: 15px;
+  line-height: 25px;
+  margin-top: 4px
+}
+
+#instructions-lst li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px 40px;
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  padding-left: 30px
+}
+
+td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 15px 0 15px 35px
+}
+
+.last {
+  border-bottom: none
+}
+
+td b {
+  color: hsl(14, 45%, 36%);
+}
+
+.attribution {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(30, 18%, 87%);
+  margin: 25px 40px;
+}
